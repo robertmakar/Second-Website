@@ -101,7 +101,7 @@ body{
 .musician{
   width: 100%; height: 500px;
   top: 50px;
-  background: url(images/piano.jpg);
+  background: url('images/piano.jpg');
   background-size: cover;
   /*background-color: #006655;*/
 }
