@@ -96,15 +96,31 @@ body{
 .intro2{
   width: 100%; height: 500px;
   top: 50px;
-  /*background-color: #aa5566;*/
+  background-color: #aa5566;
+  text-align: center;
 }
-video{
+/*video{
   position: relative;
   width: 100%; height:auto;
-  top: 50%; left: 50%;
+  top: 0%; left: 50%;
   transform: translate(-50%, -50%);
-  z-index: -1;
+  z-index: 1;
+
 }
+.video_container{
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  width: 100%; height: inherit;
+  overflow: hidden;
+}
+.video_text{
+  color: black;
+  font-size: 100px;
+  z-index: 2;
+  position: relative;
+}*/
 .musician{
   width: 100%; height: 500px;
   top: 50px;
