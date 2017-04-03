@@ -96,7 +96,14 @@ body{
 .intro2{
   width: 100%; height: 500px;
   top: 50px;
-  background-color: #aa5566;
+  /*background-color: #aa5566;*/
+}
+video{
+  position: relative;
+  width: 100%; height:auto;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 .musician{
   width: 100%; height: 500px;
@@ -107,7 +114,7 @@ body{
 }
 .piano_title{
   margin:0; padding: 0;
-  width: inherit;
+  width: 600px;
   position: relative;
   top: 15%; left: 7%;
   text-align: left;
@@ -118,7 +125,6 @@ body{
 }
 .piano_text{
   margin:0; padding: 0;
-  width: inherit; height: inherit;
   width:600px; height: 100px;
   margin-left: 7%; margin-top: 10%;
   text-align: left;
