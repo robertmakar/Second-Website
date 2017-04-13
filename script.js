@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
   $('footer img').hover(function(){
     $(this).animate({width:'60px', height:'60px'}, 'fast');
   }, function(){
