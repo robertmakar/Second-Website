@@ -30,7 +30,7 @@ $(".header").addClass("zoom");
 */
 
 $(document).ready(function(){
-  $('footer img').hover(function(){
+  $('.footer img').hover(function(){
     $(this).animate({width:'55px', height:'55px'}, 'fast');
       }, function(){
     $(this).animate({width:'50px', height:'50px'}, 'fast');
