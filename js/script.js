@@ -35,4 +35,9 @@ $(document).ready(function(){
       }, function(){
     $(this).animate({width:'50px', height:'50px'}, 'fast');
   });
+
+  $('.pixel').hover(function(){
+    $(".bubble").animate({opacity:'1'}, 'fast');
+  });
+
 });
