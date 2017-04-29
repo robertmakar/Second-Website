@@ -39,5 +39,7 @@ $(document).ready(function(){
   $('.pixel').hover(function(){
     $(".bubble").animate({opacity:'1'}, 'fast');
   });
+  
+	$('.my-slider').unslider();
 
 });
