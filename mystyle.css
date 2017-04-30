@@ -19,12 +19,11 @@ body{
   top: 0; width: 100%;
   list-style-type: none;
   margin: 0; padding: 0;
-  overflow: hidden;
   background-color: rgba(06, 0, 0, 0.1);
-
 }
 .navigationbar li{
   font-family: "Poppins";
+  font-size: 16.25px;
   font-weight: bold;
   float: left;
 }
@@ -68,7 +67,7 @@ body{
   width: 900px;
 }
 .intro1{
-  width: 100%; height: 600px;
+  width: 100%; height: 100vh;
   top: 50px;
   background: url(images/binary.png) center center;
   background-size: cover;
@@ -78,11 +77,11 @@ body{
 .pixel{
   height: 350px;
   position: relative;
-  top: 100px;
+  top: 150px;
 }
 .bubble{
   position: relative;
-  top:-100px;
+  top:-40px;
   width: 200px; height: 200px;
   opacity: 0;
 }
@@ -90,7 +89,7 @@ body{
   float: left;
   text-align: center;
   margin-left: 15%;
-  margin-top: 10%;
+  margin-top: 15%;
 
   font-family: 'Lobster';
   font-size: 75px;
@@ -134,8 +133,25 @@ video{
   z-index: 2;
   position: relative;
 }*/
+.photos{
+  width: 100%; height: 100vh;
+  position: relative;
+}
+.my-slider{
+  width: 100%; height: 100vh;
+  margin: 0; padding: 0;
+  z-index: 0;
+}
+.photos-title{
+  font-family: "Droid Sans Mono";
+  position: absolute;
+  z-index: 1;
+  margin: 0; padding: 0;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
 .musician{
-  width: 100%; height: 500px;
+  width: 100%; height: 100vh;
   top: 50px;
   background: url('images/piano.jpg');
   background-size: cover;

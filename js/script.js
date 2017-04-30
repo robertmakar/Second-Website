@@ -9,7 +9,12 @@ $(document).ready(function(){
     $(".bubble").animate({opacity:'1'}, 'fast');
   });
 
-	$('.my-slider').unslider();
+	$('.my-slider').unslider({
+    infinite: true,
+    autoplay: true,
+    arrows: false,
+    nav: false
+  });
 
   var $root = $('html, body');
   $('.anchor').click(function() {
