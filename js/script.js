@@ -17,7 +17,8 @@ $(document).ready(function(){
     autoplay: true,
     delay:5000,
     arrows: false,
-    nav: false
+    nav: false,
+    fluid:true
   });
 
   //Adding Active class to the active section in navi bar

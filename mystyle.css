@@ -11,7 +11,7 @@ body{
   font-family: "Roboto";
 }
 .navigationbar{
-  position:fixed; z-index: 1;
+  position:fixed; z-index: 1000;
   height: 50px;
   width: 100%;
 }
@@ -52,7 +52,7 @@ body{
 .header{
   width: 100%; height: 100vh; z-index: 0;
   top: 50px;
-  background: url(images/image6-web.jpg) center center;
+  background: url(images/image6-web2.jpg) center center;
   background-size: cover;
   margin-bottom: 5px;
 }
@@ -151,26 +151,44 @@ video{
   margin: 0; padding: 0;
   z-index: 0;
 }
+.photos-tint{
+  width: inherit; height: inherit;
+  font-family: "Droid Sans Mono";
+  font-size: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  padding: 5% -3% -5% 3%;
+
+}
 .photos-title{
   font-family: "Droid Sans Mono";
   font-size: 40px;
   color: white;
 
+  text-align: left;
   position: absolute;
   z-index: 1;
-  margin: 0; padding: 0;
-  top: 10%; left: 5%;
-  transform: translate(-5%,-10%);
+  margin: 0;
+  left: 4%; top:10%;
+  transform: translate(-4%, -10%);
 }
+
+
+
 .photos-text{
-    font-family: "Just Me Again Down Here";
-    font-size: 25px;
+    font-family: "Josefin Slab";
+    font-size: 15px;
     color: white;
 
     position: absolute;
     z-index: 1;
     margin: 0; padding: 0;
-    top: 18%; left: 5%;
+    top: 18%; left: 4%;
     transform: translate(-5%,-18%);
 }
 .musician{
