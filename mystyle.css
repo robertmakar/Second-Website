@@ -82,6 +82,7 @@ body{
   border-bottom: solid #006655 25px;
 }
 .pixel{
+  transform: scale(1.3);
   height: 350px;
   position: relative;
 
@@ -97,27 +98,27 @@ body{
   top: -35%;
 
   margin-right: 3.5%;
-  margin-left: -2.5%;
+
 }
 .pixel_title{
 
   float: left;
   text-align: center;
-  margin-left: 7%;
+  margin-left: 5%;
   margin-top: 15%;
   transform: translate(0,-15%);
 
   font-family: 'Lobster';
-  font-size: 85px;
+  font-size: 90px;
 }
 .pixel_text{
-  width: 46%;
+  width: 50%;
   font-family: 'Josefin Sans';
   font-size: 1.5em;
-
+  line-height: 130%;
   float: left;
   text-align: left;
-  margin-left: 7%;
+  margin-left: 5%;
   margin-top: -3%;
 }
 .photos{
@@ -194,7 +195,7 @@ body{
 }
 .piano_text{
   margin:0; padding: 0;
-  width:50%; height: 100px;
+  width:50%; 
   margin-left: 7%; margin-top: 10%;
   text-align: left;
 

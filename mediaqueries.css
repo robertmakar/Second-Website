@@ -30,7 +30,7 @@ div{
     top:25%;
     margin-right: 10%;
 
-    transform: scale(0.95);
+    transform: scale(1.2);
   }
   .bubble{
     transform: scale(0.95);
@@ -57,7 +57,7 @@ div{
     margin-left: 0;
   }
 }*/
-@@media (max-width:1050px)) {
+@@media (max-width:1050px) {
   .pixel_text, .pixel_title{
 
   }
@@ -78,5 +78,53 @@ div{
   }
   .bubble{
 
+  }
+}
+@media (max-width:415px) {
+  .navigationbar ul{
+    background-color: purple;
+  }
+  .pixel{
+    transform: scale(1);
+    margin: 0;
+  }
+  .pixel_title{
+    margin:0;
+    margin-top: 20%;
+    font-size: 50px;
+    width: 90%;
+    text-align: center;
+  }
+  .pixel_text{
+    margin: 10% 0 0 5%;
+  }
+  .musician{
+    width: 100%;
+    top: 25%;
+    font-size: 3em;
+    margin: 0; padding: 0;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+
+  }
+  .piano_text{
+    margin-top: 50%;
+    margin-left: 0;
+    width: 93%;
+  }
+  .photos{
+    display: none;
+  }
+  .footer img{
+    width: 30px;
+  }
+  .icons{
+    width: 40px;
+  }
+  .magicClass{
+    width:10px;
+  }
+  .copyrights{
+    font-size: 10px;
   }
 }
