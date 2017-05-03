@@ -2,29 +2,40 @@
   .navigationbar ul{
     background-color: green;
   }
+html{
+  width: auto;
+}
+div{
+  width: 100%;
+}
   .intro1{
-    width: 100%;
+    width: auto;
+    background-size:cover;
   }
   .pixel_text, .pixel_title{
-    margin-left: 3%;
+    margin-left: 5%;
   }
   .pixel_title{
-    width: 510px;
+    width: 50%;
     font-size: 75px;
     text-align: left;
+
+    margin-top: 20%;
   }
   .pixel_text{
+    width: 45%;
     font-size: 1.3em;
-    float: left;
   }
   .pixel{
-    margin-left: 0;
-    transform: scale(0.96);
+    top:25%;
+    margin-right: 10%;
+
+    transform: scale(0.95);
   }
   .bubble{
-    transform: scale(0.99);
-    margin-top: -100%;
-    margin-left: 75%;
+    transform: scale(0.95);
+    margin-top: 0%;
+    margin-left: -2%;
   }
 }
 /*@media (max-width:1139px){
@@ -46,3 +57,26 @@
     margin-left: 0;
   }
 }*/
+@@media (max-width:1050px)) {
+  .pixel_text, .pixel_title{
+
+  }
+  .pixel_title{
+    width: 25%;
+
+
+  }
+  .pixel_text{
+
+
+
+  }
+  .pixel{
+
+
+
+  }
+  .bubble{
+
+  }
+}
