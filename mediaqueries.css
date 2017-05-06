@@ -80,43 +80,71 @@ div{
 
   }
 }
+
+
+
+
+
+
+
+
 @media (max-width:415px) {
   .navigationbar ul{
     background-color: purple;
   }
+  .navigationbar{
+    height: 6.4vh;
+  }
+  .navbarlogo{
+    font-size: 20.5px;
+  }
+  .navigationbar li{
+    font-size: 14px;
+  }
+  .navigationbar li a {
+    padding: 12px 8px;
+  }
+  .name{
+    font-size: 60px;
+  }
   .pixel{
-    transform: scale(1);
-    margin: 0;
+    float: right;
+    transform: scale(0.8);
+    margin: 0; top: 0%; left: 0%;  right: 0%;
   }
   .pixel_title{
     margin:0;
-    margin-top: 20%;
-    font-size: 50px;
+    margin: 25% 0 0 5%;
+    font-size: 45px;
     width: 90%;
     text-align: center;
   }
   .pixel_text{
-    margin: 10% 0 0 5%;
+    width: auto;
+    float: left;
+    margin: 10% 0 0 4%;
   }
   .musician{
     width: 100%;
-    top: 25%;
     font-size: 3em;
+    text-align: center;
     margin: 0; padding: 0;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
-
+    top: 20%; left: 50%;
+    transform: translate(-50%,-20%);
   }
   .piano_text{
     margin-top: 50%;
-    margin-left: 0;
-    width: 93%;
+    margin-left: 4%;
+    width: 95%;
+
+    font-size: 1.2em;
+    line-height: 150%;
   }
-  .photos{
+  .photos, .photos2{
     display: none;
   }
   .footer img{
-    width: 30px;
+    width: 35px;
   }
   .icons{
     width: 40px;
@@ -125,6 +153,8 @@ div{
     width:10px;
   }
   .copyrights{
-    font-size: 10px;
+    padding: 0 10%;
+    font-size: 14px;
   }
+
 }
