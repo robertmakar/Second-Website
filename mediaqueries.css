@@ -2,29 +2,40 @@
   .navigationbar ul{
     background-color: green;
   }
+html{
+  width: auto;
+}
+div{
+  width: 100%;
+}
   .intro1{
-    width: 100%;
+    width: auto;
+    background-size:cover;
   }
   .pixel_text, .pixel_title{
-    margin-left: 3%;
+    margin-left: 5%;
   }
   .pixel_title{
-    width: 510px;
+    width: 50%;
     font-size: 75px;
     text-align: left;
+
+    margin-top: 20%;
   }
   .pixel_text{
+    width: 45%;
     font-size: 1.3em;
-    float: left;
   }
   .pixel{
-    margin-left: 0;
-    transform: scale(0.96);
+    top:25%;
+    margin-right: 10%;
+
+    transform: scale(1.2);
   }
   .bubble{
-    transform: scale(0.99);
-    margin-top: -100%;
-    margin-left: 75%;
+    transform: scale(0.95);
+    margin-top: 0%;
+    margin-left: -2%;
   }
 }
 /*@media (max-width:1139px){
@@ -46,3 +57,106 @@
     margin-left: 0;
   }
 }*/
+@media (max-width:1050px) {
+  *{
+    margin: 0; padding: 0;
+  }
+  .navigationbar ul{
+    background-color: red;
+  }
+  .navigationbar{
+    height: 10vh;
+  }
+  .pixel_text, .pixel_title{
+
+  }
+  .pixel_title{
+    width: 25%;
+
+
+  }
+  .pixel_text{
+
+
+
+  }
+  .pixel{
+
+
+
+  }
+  .photos, .photos2{
+    display: none;
+  }
+}
+
+@media (max-width:415px) {
+  .navigationbar ul{
+    background-color: purple;
+  }
+  .navigationbar{
+    height: 6.4vh;
+  }
+  .navbarlogo{
+    font-size: 20.5px;
+  }
+  .navigationbar li{
+    font-size: 14px;
+  }
+  .navigationbar li a {
+    padding: 12px 8px;
+  }
+  .name{
+    font-size: 60px;
+  }
+  .pixel{
+    float: right;
+    transform: scale(0.8);
+    margin: 0; top: 0%; left: 0%;  right: 0%;
+  }
+  .pixel_title{
+    margin:0;
+    margin: 25% 0 0 5%;
+    font-size: 45px;
+    width: 90%;
+    text-align: center;
+  }
+  .pixel_text{
+    width: auto;
+    float: left;
+    margin: 10% 0 0 4%;
+  }
+  .musician{
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+    margin: 0; padding: 0;
+    top: 20%; left: 50%;
+    transform: translate(-50%,-20%);
+  }
+  .piano_text{
+    margin-top: 50%;
+    margin-left: 4%;
+    width: 95%;
+
+    font-size: 1.2em;
+    line-height: 150%;
+  }
+  .photos, .photos2{
+    display: none;
+  }
+  .footer img{
+    width: 35px;
+  }
+  .icons{
+    width: 40px;
+  }
+  .magicClass{
+    width:10px;
+  }
+  .copyrights{
+    padding: 0 10%;
+    font-size: 14px;
+  }
+
+}
