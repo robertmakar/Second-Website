@@ -57,7 +57,16 @@ div{
     margin-left: 0;
   }
 }*/
-@@media (max-width:1050px) {
+@media (max-width:1050px) {
+  *{
+    margin: 0; padding: 0;
+  }
+  .navigationbar ul{
+    background-color: red;
+  }
+  .navigationbar{
+    height: 10vh;
+  }
   .pixel_text, .pixel_title{
 
   }
@@ -76,17 +85,10 @@ div{
 
 
   }
-  .bubble{
-
+  .photos, .photos2{
+    display: none;
   }
 }
-
-
-
-
-
-
-
 
 @media (max-width:415px) {
   .navigationbar ul{

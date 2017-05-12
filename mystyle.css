@@ -2,6 +2,7 @@ html{
   width: 100%;
   }
 .container{
+  margin: 0 auto;
   width: 100%;
   text-align: center;
 }
@@ -63,7 +64,7 @@ body{
 .header{
   width: 100%; height: 100vh; z-index: 0;
   top: 50px;
-  background: url(images/image6-web2.jpg) center center;
+  background: url(images/image6-web2.webp) center center;
   background-size: cover;
   border-bottom: solid #006655 25px;
 }
@@ -172,7 +173,7 @@ body{
   background-size: cover;
   background-attachment:fixed;
   /*background-color: #006655;*/
-  border-bottom: solid #006655 25px;
+  border-bottom: solid #006655 30px;
 
 }
 .musician{
